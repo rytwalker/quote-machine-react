@@ -1,0 +1,47 @@
+.QuoteBox {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 3rem;
+  width: 55rem;
+}
+
+.quote-info {
+  margin-bottom: 3rem;
+}
+
+.fa-quote-left {
+  margin-right: 1rem;
+}
+
+#text {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+  /* opacity: 0;
+  animation: fadein 0.5s ease;
+  animation-fill-mode: forwards;
+  transition: 1s all; */
+}
+
+#author {
+  font-size: 1.4rem;
+  text-align: right;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/* .button-container:last-child {
+  margin-right: auto;
+} */
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
