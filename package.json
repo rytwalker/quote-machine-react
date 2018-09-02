@@ -1,7 +1,7 @@
 {
   "name": "random-quote-machine-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https:rytwalker.github.io/quote-machine-react",
   "dependencies": {
     "axios": "^0.18.0",
